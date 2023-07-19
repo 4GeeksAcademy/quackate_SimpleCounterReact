@@ -1,12 +1,46 @@
+body {
+    background-color: rgb(143, 119, 250);
+}
 
-/* 
+h1 {
+    margin-top: 90px;
+    color: white;
+    font-size: 40px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.wrapper {
+    text-align: center;
+    background-color: rgb(80, 2, 175);
+    padding: 20px;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 70px;
+    border: solid;
+    border-color: rgb(174, 167, 255);
+    border-style: dashed;
+    border-radius: 10px;
+}
+.wrapper div {
+    display: inline-block;
+    font-size: 60px;
+    line-height: 60px;
+    background-color: rgb(93, 2, 205);
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border: solid;
+    border-color: rgb(115, 0, 255);
+    border-radius: 5px;
+}
 
-*/
+button {
+    padding: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 40px;
+    margin-top: 100px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    border-color: antiquewhite;
+}
